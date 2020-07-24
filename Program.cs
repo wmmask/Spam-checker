@@ -8,7 +8,7 @@ namespace Spam_Checker
         {
             Console.WriteLine("Hello World!");
 
-            string blackListWord "psycho";
+            string blackListWord = "psycho";
             bool isSpam = false;
             string message = Console.ReadLine();
             //message/string for test with spam:
